@@ -1,0 +1,90 @@
+/*  File: style.css
+    GUI Assignment: Creating Your First Web Page
+    Author: Benjamin Jancsy
+    Created: May 23, 2023.
+    CSS file for profile on the benefits of lentils.
+    Copyright (c) 2023 by Ben. 
+ */
+html {/*  background*/
+    background-color: blue;
+    background-image: linear-gradient(yellow, blue);
+}
+h1 {/*  header*/
+    font-style: italic;
+    color: darkgreen;
+    border: dotted blue;
+    padding: 5px;
+}
+h1, h3 {
+    text-align: center;
+}
+.col1 {/* left main divs */
+    width: 45%;
+    float: left;
+    padding-left: 15px;
+}
+.col2 {/* right main divs */
+    width: 45%;
+    float: right;
+    padding-right: 15px;
+
+}
+.content, h3 {/* all content and section headers */
+    margin: 15px;
+    padding: 5px;
+    border: 2px double;
+    border-color: green;
+}
+h3 { /*section headers*/
+    background-color: sandybrown;
+
+}
+.content {
+    background-color: aquamarine;
+}
+tr:hover {/* make the table fancy and turn red with hovering */
+    background-color: red;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+th, td { /*formatting the table items*/
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid black;
+
+}
+h4 {/* table title */
+    font-size: 150%;
+    display: inline;
+}
+#note {/* italics for table note */
+    font-style: italic;
+    display: inline;
+}
+a:not(.show) {/* table links */
+    text-decoration: none;
+    color: black;
+}
+#where {/* in the where to get lentils section */
+    text-align: center;
+    font-family: "Lucida Console", Arial, monospace;
+}
+img { /*image centers nicely in div*/
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.cap p::first-letter {/* capitalize first letter of paragrapgs */
+    font-size: 220%;
+}
+#nocap::first-letter {/*  but not all the paragraphs*/
+    font-size: 100%;
+}
+#nocap {/*  Italic source link*/
+    font-style: italic;
+}
+li {/*  square list bullets!*/
+    list-style: square;
+}
