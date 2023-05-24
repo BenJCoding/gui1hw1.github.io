@@ -1,0 +1,108 @@
+<!--
+    File: index.html
+    GUI Assignment: Creating Your First Web Page
+    Author: Benjamin Jancsy
+    Created: May 23, 2023.
+    This webpage presents a profile on the importance of and benefits of lentils. Nicely displays info and a dynamic colorful table
+     and formats images with links and scales o screen size well and also has a pleasing gradient background.
+     Sources and alt descriptions provided for images.
+    Copyright (c) 2023 by Ben.
+    References used:
+        Content and Images:
+            Wikipedia: https://en.wikipedia.org/wiki/Lentil
+            Food Network: https://www.foodnetwork.com/how-to/packages/food-network-essentials/what-are-lentils
+        Web Dev:
+            W3Schools.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Eat Lentils</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="script.js"></script> -->
+  </head>
+  <body>
+    <!-- page content -->
+    <div>
+        <h1>An Overview of Lentils</h1>
+    </div>
+    <div class="col1 cap"><!-- first div, two classes for css formatting -->
+        <h3>What are lentils?</h3>
+        <div class="content"><!-- inner div of the content to diplay for this section -->
+            <p>Lentils are a gift from nature. A highly nutritious legume enjoyed by many cultures all over the world.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/3_types_of_lentil.png/330px-3_types_of_lentil.png" alt="Red, Green, and Puy letils.">
+        </div>
+    </div>
+    <div class="col2 cap"><!-- 2nd div, two classes for css formatting -->
+        <h3>Why are they good?</h3>
+        <div class="content"><!-- inner div of the content to diplay for this section -->
+            <p>Lentils are a small but mighty legume. They
+                are supremely healthy, tasty, and sustainable!
+                Lentils provide essential nutrients needed for a healthy diet.
+                As the meat industry tortures animals and harms the humans who process meat,
+                an alternative food source is needed for a healthy, happy soceity. Lentils
+                are the answer! They provide all the nutrients that are typically obtained through
+                animal products. That's why humans have been enjoying lentils since before pottery
+                was invented!
+            </p>
+            <p>Lentils do not require much water, and they are nitrogen-fixing, that means
+                they dont need as much fertilizer; this is hugely beneficial to the environment! 45% of the World's lentils are grown in Canada,
+                the relatively infertile land there can handle this, as lentils are not a picky crop.
+            </p>
+            <p>Did I remember to mention how delicious they are? Heres a small sample of the many nutrients:</p>
+            <h4>Nutrition in Lentils</h4>
+            <p id="note">&nbsp; &nbsp; Click each nutrient name to learn more!</p>
+            <table><!-- nutrition table -->
+                <tr>
+                    <th><a href="https://en.wikipedia.org/wiki/Reference_Daily_Intake" target="_blank">100g Serving</a></th>
+                    <th>% DV</th>
+                </tr>
+                <tr>
+                    <td><a href="https://en.wikipedia.org/wiki/Folate" target="_blank">Folic Acid</a></td>
+                    <td>45%</td>
+                </tr>
+                <tr>
+                    <td><a href="https://en.wikipedia.org/wiki/Dietary_fiber" target="_blank">Fibre</a></td>
+                    <td>29%</td>
+                </tr>
+                <tr>
+                    <td><a href="https://en.wikipedia.org/wiki/Human_iron_metabolism" target="_blank">Iron</a></td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                    <td><a href="https://en.wikipedia.org/wiki/Vitamin_B6" target="_blank">B6</a></td>
+                    <td>14%</td>
+                </tr>
+            </table>
+            <p id="nocap">Source: <a class="show" href="https://en.wikipedia.org/wiki/Lentil">Wikipedia</a></p>
+        </div>
+    </div>
+    <div class="col1"><!-- third div, one class for css formatting -->
+        <h3>What are some recipes?</h3>
+        <div class="content"><!-- inner div of the content to diplay for this section -->
+            <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/03/03/0/FNM_040120-Spiced-Lentils-with-Leeks_s4x3.jpg.rend.hgtvcom.616.462.suffix/1583250960674.jpeg" alt="Yummy lentils">
+            <p>Check out these amazing <a class="show" href="https://www.foodnetwork.com/how-to/packages/food-network-essentials/what-are-lentils" target="_blank">recipes</a> from Food Network!</p>
+            <ul>
+                <li>Lentil Soup</li>
+                <li>Masoor Dal</li>
+                <li>Lentil-Herb Salad</li>
+                <li>Vegan Lentil Burgers</li>
+                <li>Healthy Lentil Chili</li>
+                <li>Spiced Lentils with Leeks</li>
+            </ul>
+            <p>Get cooking!</p>
+            <p>Tip: Boil some lentils ahead of time, then scoop them into your meals over the next
+                few days to fortify your food!
+            </p>
+        </div>
+    </div>
+    <div class="col2"><!-- fourth div, one class for css formatting -->
+        <h3>Where can you find lentils?</h3>
+        <div class="content"><!-- inner div of the content to diplay for this section -->
+            <p id="where">Any grocery store, or any restuarant worth it's salt!</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Daal_after_Tadka_Pulse_Soup_India.jpg" alt="Yellow Dal Tadka">
+        </div>
+    </div>
+  </body>
+</html>
